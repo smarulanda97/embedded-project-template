@@ -363,7 +363,7 @@ pub unsafe fn main() {
             23 => &peripherals.pins.get_pin(RPGpio::GPIO23),
             24 => &peripherals.pins.get_pin(RPGpio::GPIO24),
             // LED pin
-            // 25 => &peripherals.pins.get_pin(RPGpio::GPIO25),
+            25 => &peripherals.pins.get_pin(RPGpio::GPIO25),
 
             // Uncomment to use these as GPIO pins instead of ADC pins
             // 26 => &peripherals.pins.get_pin(RPGpio::GPIO26),
